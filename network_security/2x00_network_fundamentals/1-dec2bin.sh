@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/bin/bash
 import sys
 arg=int(sys.argv[1])
 binarg=[]
