@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "$((2#$1))"
+
+printf "%d\n" "$(echo "ibase=2; $1" | bc)"
